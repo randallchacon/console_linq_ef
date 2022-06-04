@@ -1,6 +1,6 @@
 ﻿using console_linq_ef;
 //First data
-/* 
+ 
 using(var context = new ApplicationDBContext())
 {
     var person1 = new Person() { Name="Randall"};
@@ -9,7 +9,7 @@ using(var context = new ApplicationDBContext())
     context.AddRange(person1, person2);
     context.SaveChanges();
 }
-*/
+
 
 using (var context = new ApplicationDBContext())
 {
@@ -26,6 +26,6 @@ using (var context = new ApplicationDBContext())
 
     //Not all LINQ Expressions are valid in EF, for example Chunk doesn't exists
     //var segments = context.People.Chunk(2).ToList();
+    Console.WriteLine("Hello, World!");
 }
 
-Console.WriteLine("Hello, World!");
