@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "console_linq_ef": {
+      "commandName": "Project",
+      "workingDirectory": "E:\\gitprojects\\randallchacon\\console_linq_ef\\console_linq_ef"
+    }
+  }
+}
